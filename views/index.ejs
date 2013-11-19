@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test</title>
+		<script src="js/libs/jquery.js"></script>
+		<script src="js/libs/underscore.js"></script>
+		<script src="js/libs/backbone.js"></script>
+		<script src="js/models/TodoModel.js"></script>
+		<script src="js/views/TodoListItemView.js"></script>
+		<script src="js/views/TodoListView.js"></script>
+		<script src="js/views/TodoView.js"></script>
+		<script src="js/views/TodoViewerView.js"></script>
+		<script src="js/router.js"></script>
+		<script src="js/app.js"></script>
+	</head>
+
+	<body>
+		<div class="todo-container">
+			<div class="todo-input">
+				<label>Title: </label><input type="text" id="title-textbox" />
+				<label>Todo: </label><input type="text" id="todo-textbox" />
+				<button id="add-button">Add todo!</button>
+			</div>
+			<ul class="todo-list" style="float: left;"></ul>
+
+			<div class="todo-viewer" style="float: right;"></div>
+		</div>
+	</body>
+</html>
